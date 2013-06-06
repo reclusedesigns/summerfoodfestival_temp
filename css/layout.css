@@ -1,6 +1,16 @@
 
 
-/* START */
 
+
+/* typography */
+a.btn{background:rgba(0,0,0,0.1); padding:20px; border-radius: 5px; font-size:16px; border:none; color:rgba(255,255,255,0.8); text-shadow: none;}
+a.btn:hover{text-decoration: none; background:rgba(0,0,0,0.2); color:#fff}
+
+p{max-width: 900px;}
+
+
+/* animate */
+a.btn{transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out;}
+/* START */
 .logo{padding-bottom:40px;}
-.white_trial{background:rgba(255,255,255,0.9); box-shadow: -5px 5px 0 rgba(0,0,0,0.1);}
+.contact{margin-bottom:10px;}
