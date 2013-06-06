@@ -9,15 +9,17 @@
 		<meta name="keywords" content="fullscreen layout, boxes, responsive, page transitions, css transitions, jquery, portfolio, template" />
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="../favicon.ico"> 
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
 		
 		<!-- css -->
+		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" type="text/css" media="screen" charset="utf-8">
 		<link rel="stylesheet" href="vendor/ss-pika/ss-pika.css" type="text/css" media="screen" charset="utf-8">
 		<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen" charset="utf-8">
 		
 		
 		<!-- js -->
+		<script src="vendor/bootstrap/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="vendor/ss-pika/ss-pika.js" type="text/javascript" charset="utf-8"></script>
 		
 		<!-- fonts -->
@@ -26,16 +28,16 @@
 	</head>
 	<body>
 
-	
-		<div class="container">	
+	<!-- container used togo here -->
 			<div id="bl-main" class="bl-main">
-				
 				<section>
 					<div class="bl-box">
 						<h2><i class="icon ss-spoonfork"></i><br>Hello</h2>
 					</div>
 					<div class="bl-content">
-						<img class="logo" src="images/logo.png" alt="logo">
+						<div class="brand">
+							<img class="logo" src="images/logo.png" alt="logo">
+						</div>
 						<h2>Taste the world</h2>
 						<p>Kicking off this December is the first <strong>Summer Food Festival!</strong> Be sure to bring the family to this one-of-a-kind weekly event.</p>
 						
@@ -130,7 +132,7 @@
 					</nav>
 				</div>
 			</div>
-		</div><!-- /container -->
+			<!-- container used to go here -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="js/boxlayout.js"></script>
 		<script>
