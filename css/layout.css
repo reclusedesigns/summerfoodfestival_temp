@@ -14,7 +14,7 @@ p{max-width: 900px;}
 a.btn{transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out;}
 
 /* START */
-.main_logo{position: absolute;top: 50%; left:50%; z-index:90; width:100px; height:100px; margin-top:-50px; margin-left:-50px;}
+.main_logo{position: absolute;top: 50%; left:50%; z-index:90; width:100px; height:100px; margin-top:-50px; margin-left:-50px; display: none;}
 
 
 .logo{padding-bottom:40px;}
