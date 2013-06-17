@@ -6,14 +6,22 @@
 a.btn{background:rgba(0,0,0,0.1); padding:20px; border-radius: 5px; font-size:16px; border:none; color:rgba(255,255,255,0.8); text-shadow: none;}
 a.btn:hover{text-decoration: none; background:rgba(0,0,0,0.2); color:#fff}
 
+h2{padding-bottom:18px;}
 p{max-width: 900px;}
-
+.bl-content p{line-height: 1.4em}
 
 /* animate */
 a.btn{transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out;}
+
 /* START */
+.main_logo{position: absolute;top: 50%; left:50%; z-index:90; width:100px; height:100px; margin-top:-50px; margin-left:-50px;}
+
+
 .logo{padding-bottom:40px;}
 .contact{margin-bottom:10px;}
 
 
-.main_logo{position: absolute;top: 50%; left:50%; z-index:90; width:100px; height:100px; margin-top:-50px; margin-left:-50px;}
+/* social stuff */
+.social{padding-bottom: 20px;}
+.social a{opacity: 0.8; transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out;}
+.social a:hover{opacity: 1}
